@@ -1,10 +1,10 @@
-def add(a, b):
+def add(a,b):
     print(f"ADDING {a} + {b}")
     return a + b
 def subtract(a, b):
     print(f"SUBTRACTING {a} - {b}")
     return a - b
-def multiplay(a, b):
+def multiply(a, b):
     print(f"MULTIPLYING {a} * {b}")
     return a * b
 def divide(a, b):
@@ -16,6 +16,6 @@ height = subtract(78, 4)
 weight =multiply(90, 2)
 iq= divide(100, 2)
 print(f"Age: {age}, Height: {height}, Weight: {weight}, IQ: {iq}")
-print(Here is a puzzle.")
+print("Here is a puzzle.")
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
-print("That becomes: ", what, Can you do it by hand?")
+print("That becomes: ", what, "Can you do it by hand?")
